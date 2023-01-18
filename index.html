@@ -1,0 +1,810 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="snowlake_new.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link media="all" type="text/css" rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.1.1/css/all.css">
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    
+    <header>
+        <div class="container-fluid p-0" style="background-image:url('images/header-bg.jpg');height: 100vh;width:100%;  background-size: cover;background-repeat: no-repeat;background-position: center center;">
+            <div class="row m-0">
+                <div class="col-lg-12 p-0">
+                        <div class="overlay1" style="height: 100vh;">
+                                <!--Gear button-->
+                                <i class="fa-regular fa-gear"></i>
+                                <!--Gear button ends-->
+                            <!--navigation-->
+                            <nav class="navbar navbar-expand-lg navbar-dark p-0">
+                                <div class="container">
+                                  <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
+                                  
+                                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                        <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="display: flex;justify-content: center;align-items: center; width: 100%;">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                           
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link active" aria-current="page" href="#">Features</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link active" aria-current="page" href="#">Pages</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link active" aria-current="page" href="#">Elements</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link active" aria-current="page" href="#">Blog</a>
+                                        </li>
+                                        
+                                        </ul>
+                                    </div>
+                                    <!--off canvas1-->
+                                      <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel" style="width: 100%;max-width: 300px;">
+                                        <div class="close-btn">
+                                            <!--<i class="fa-regular fa-xmark"></i>-->
+                                            <button type="button" class="fa-regular fa-xmark" data-bs-dismiss="offcanvas" aria-label="Close" style="color: white;background-color: #212529;border: none;padding: 20px;"></button>
+                                        </div>
+                                        <div class="offcanvas-header bg-dark">
+                                          <h5 class="offcanvas-title" id="offcanvasExampleLabel" style="margin-left: 36px;"><img src="images/logo.png" alt=""></h5>
+                                          
+                                        </div>
+                                        <div class="offcanvas-body bg-dark">
+                                            <div class="container">
+                                                <div class="row">
+                                                        <!--Home-->
+                                                    <div class="col-lg-12">
+                                                        <div class="dropdown">
+                                                            <button class="btn btn-secondary dropdown-toggle bg-dark" style="border: none;" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                                              Home <i class="fa-sharp fa-solid fa-chevron-down" style="margin-left: 150px;"></i>
+                                                            </button>
+                                                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" style="background-color: #212529;border: none;">
+                                                                <li class="bg-dark"><a class="dropdown-item" href="#" style="color: white;">Saas Landing</a></li>
+                                                                <li class="bg-dark"><a class="dropdown-item" href="#" style="color: white;">SEO Agency</a></li>
+                                                                <li class="bg-dark"><a class="dropdown-item" href="#" style="color: white;">Modern Business</a></li>
+                                                                <li class="bg-dark"><a class="dropdown-item" href="#" style="color: white;">Design Agency</a></li>
+                                                                <li class="bg-dark"><a class="dropdown-item" href="#" style="color: white;">App Presentation</a></li>
+                                                                <li class="bg-dark"><a class="dropdown-item" href="#" style="color: white;">Creative Landing</a></li>
+                                                            </ul>
+                                                          </div>
+                                                    </div><!--home ends-->
+                                                    <div class="col-lg-12">
+                                                        <div class="dropdown">
+                                                            <button class="btn btn-secondary dropdown-toggle bg-dark" style="border: none;" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                                              Features <i class="fa-sharp fa-solid fa-chevron-down" style="margin-left: 135px;"></i>
+                                                            </button>
+                                                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" style="background-color: #212529;border: none;">
+                                                                <li class="bg-dark"><a class="dropdown-item" href="#" style="color: white;">Saas Landing</a></li>
+                                                                <li class="bg-dark"><a class="dropdown-item" href="#" style="color: white;">SEO Agency</a></li>
+                                                                <li class="bg-dark"><a class="dropdown-item" href="#" style="color: white;">Modern Business</a></li>
+                                                                <li class="bg-dark"><a class="dropdown-item" href="#" style="color: white;">Design Agency</a></li>
+                                                                <li class="bg-dark"><a class="dropdown-item" href="#" style="color: white;">App Presentation</a></li>
+                                                                <li class="bg-dark"><a class="dropdown-item" href="#" style="color: white;">Creative Landing</a></li>
+                                                            </ul>
+                                                          </div>
+                                                    </div>
+                                                    <div class="col-lg-12">
+                                                        <div class="dropdown">
+                                                            <button class="btn btn-secondary dropdown-toggle bg-dark" style="border: none;" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                                              Pages <i class="fa-sharp fa-solid fa-chevron-down" style="margin-left: 155px;"></i>
+                                                            </button>
+                                                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" style="background-color: #212529;border: none;">
+                                                                <li class="bg-dark"><a class="dropdown-item" href="#" style="color: white;">Saas Landing</a></li>
+                                                                <li class="bg-dark"><a class="dropdown-item" href="#" style="color: white;">SEO Agency</a></li>
+                                                                <li class="bg-dark"><a class="dropdown-item" href="#" style="color: white;">Modern Business</a></li>
+                                                                <li class="bg-dark"><a class="dropdown-item" href="#" style="color: white;">Design Agency</a></li>
+                                                                <li class="bg-dark"><a class="dropdown-item" href="#" style="color: white;">App Presentation</a></li>
+                                                                <li class="bg-dark"><a class="dropdown-item" href="#" style="color: white;">Creative Landing</a></li>
+                                                            </ul>
+                                                          </div>
+                                                    </div>
+                                                    <div class="col-lg-12">
+                                                        <div class="dropdown">
+                                                            <button class="btn btn-secondary dropdown-toggle bg-dark" style="border: none;" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                                              Elements <i class="fa-sharp fa-solid fa-chevron-down" style="margin-left: 133px;"></i>
+                                                            </button>
+                                                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" style="background-color: #212529;border: none;">
+                                                                <li class="bg-dark"><a class="dropdown-item" href="#" style="color: white;">Saas Landing</a></li>
+                                                                <li class="bg-dark"><a class="dropdown-item" href="#" style="color: white;">SEO Agency</a></li>
+                                                                <li class="bg-dark"><a class="dropdown-item" href="#" style="color: white;">Modern Business</a></li>
+                                                                <li class="bg-dark"><a class="dropdown-item" href="#" style="color: white;">Design Agency</a></li>
+                                                                <li class="bg-dark"><a class="dropdown-item" href="#" style="color: white;">App Presentation</a></li>
+                                                                <li class="bg-dark"><a class="dropdown-item" href="#" style="color: white;">Creative Landing</a></li>
+                                                            </ul>
+                                                          </div>
+                                                    </div>
+                                                    <div class="col-lg-12">
+                                                        <div class="dropdown">
+                                                            <button class="btn btn-secondary dropdown-toggle bg-dark" style="border: none;" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                                              Portfolio <i class="fa-sharp fa-solid fa-chevron-down" style="margin-left: 138px;"></i>
+                                                            </button>
+                                                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" style="background-color: #212529;border:none">
+                                                                <li class="bg-dark"><a class="dropdown-item" href="#" style="color: white;">Saas Landing</a></li>
+                                                                <li class="bg-dark"><a class="dropdown-item" href="#" style="color: white;">SEO Agency</a></li>
+                                                                <li class="bg-dark"><a class="dropdown-item" href="#" style="color: white;">Modern Business</a></li>
+                                                                <li class="bg-dark"><a class="dropdown-item" href="#" style="color: white;">Design Agency</a></li>
+                                                                <li class="bg-dark"><a class="dropdown-item" href="#" style="color: white;">App Presentation</a></li>
+                                                                <li class="bg-dark"><a class="dropdown-item" href="#" style="color: white;">Creative Landing</a></li>
+                                                            </ul>
+                                                          </div>
+                                                    </div>
+                                                    <div class="col-lg-12">
+                                                        <div class="dropdown">
+                                                            <button class="btn btn-secondary dropdown-toggle bg-dark" style="border: none;" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                                              Blog <i class="fa-sharp fa-solid fa-chevron-down" style="margin-left: 166px;"></i>
+                                                            </button>
+                                                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" style="background-color: #212529;border: none;">
+                                                                <li class="bg-dark"><a class="dropdown-item" href="#" style="color: white;">Saas Landing</a></li>
+                                                                <li class="bg-dark"><a class="dropdown-item" href="#" style="color: white;">SEO Agency</a></li>
+                                                                <li class="bg-dark"><a class="dropdown-item" href="#" style="color: white;">Modern Business</a></li>
+                                                                <li class="bg-dark"><a class="dropdown-item" href="#" style="color: white;">Design Agency</a></li>
+                                                                <li class="bg-dark"><a class="dropdown-item" href="#" style="color: white;">App Presentation</a></li>
+                                                                <li class="bg-dark"><a class="dropdown-item" href="#" style="color: white;">Creative Landing</a></li>
+                                                            </ul>
+                                                          </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                      </div>
+                                    <!--off canvas ends-->
+                                    <!--off canvas 2-->
+                                    
+
+                                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel" style="width: 100%;max-width: 300px;">
+                                      <div class="offcanvas-header bg-dark">
+                                        
+                                        <button type="button" class="btn-close text-reset bg-dark" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                      </div>
+                                      <div class="offcanvas-body bg-dark">
+                                        <div class="container bg-dark">
+                                            <div class="row">
+                                                <div class="col-lg-12" style="padding-bottom: 30px;">
+                                                    <img src="images/logo.png" alt="">
+                                                    <div style="height:20px;width: 100%;"></div>
+                                                    <p class="footer-contents1">&copy; 2020 Snowlake App. <br> All rights reserved. </p>
+                                                </div>
+                                                <div class="col-lg-12" style="color:#cacaca;font-size: 16px;font-family: Nunito, sans-serif; padding-bottom: 30px;line-height: 30px;">
+                                                    <h3 class="footer-heading">Get in Touch</h3>
+                                                   <address>
+                                                    Moonshine St. 14/05 Light <br> City London, United Kingdom <br><br>
+                                                   </address>
+                                                   info@email.com <br>+00 (123) 456 78 90
+                                                </div>
+                                
+                                                <div class="col-lg-12" style="padding-bottom: 30px;">
+                                                    <h3 class="footer-heading">Learn More</h3>
+                                                    <div style="list-style-type: none; color:#cacaca;font-size: 16px;font-family: Nunito, sans-serif;">
+                                                        <div style="line-height:30px;">About Us</div>
+                                                        <div style="line-height:30px;">Our Story</div>
+                                                        <div style="line-height:30px;">Projects</div>
+                                                        <div style="line-height:30px;">Terms of Use</div>
+                                                        <div style="line-height:30px;">Privacy Policy</div>
+                                                        <div style="line-height:30px;">Contact Us</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <!--off canvas 2 ends-->
+                                    <div class="set-mag d-flex justify-content-center align-items-center">
+                                            <button style="margin-left: 18px;border: none;" class="navbar-toggler" class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample" >
+                                                <span class="navbar-toggler-icon"></span>
+                                            </button>
+                                            <i style="margin-left: 18px;color: white;" class="fa-solid fa-magnifying-glass"></i>
+                                            <i style="margin-left: 18px;color: white;" class="fa-regular fa-circle-exclamation" class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"></i>
+                                     </div>
+                                </div>
+                            </nav><!--navigation ends-->
+                                
+                                        
+                                            <div class="overlay-heading-container">
+                                                <div class="overlay-heading">
+                                                    <p id="main-heading" style="color: white;max-width: 550px;text-align: center;">Hello! We are a digital and marketing compnay</p>
+                                                </div>
+                                                <button class="gs-btn">
+                                                    GET STARTED
+                                                </button>
+                                            </div>
+                                        
+                                
+                        </div><!--overlay ends-->
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <!--header ends-->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12" style="height:125px; width:100%"></div>
+        </div>
+    </div>
+
+        <div class="main1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12" style="display: flex;justify-content:center;align-items:center">
+                        <div style="max-width: 700px;display: flex;flex-direction: column; justify-content: center;align-items: center;text-align: center;">
+                            <h2 class="btn-head">WHAT WE DO?</h2>
+                            <h3 class="hiw-heading animate__zoomIn" >The full service we are offering is specifically
+                                designed to meet your business needs.</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!--main1 ends-->
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12" style="height:65px; width:100%"></div>
+            </div>
+        </div>
+
+        <div class="main2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="service-1" style="display: flex;flex-direction: column;justify-content: center;align-items: center;">
+                            <img class="img1" style="margin-bottom: 20px;" src="images/service1.png" width="330px" height="330px" alt="">
+                            <h4 style="font-size:xx-large;text-align: center;margin: 0px 0px 16px;font-family: nunito, sans-serif; font-size: 22px;color:#404040;">Digital Marketing</h4>
+                            <p style="text-align:center;margin: 0px 0px 15px;padding: 0px 15px; font-size: 16px;font-family: nunito, sans-serif;color: #606060;">Maecenas faucibus mollis interdum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus.</p>
+                            <a class="learnmore" style="font-size:13px;font-family: nunito, sans-serif;   margin:0px 0px 20px;color: #999999;text-decoration: none;" href="#">LEARN MORE 
+                                <i class="bi bi-arrow-right-short"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="service-1" style="display: flex;flex-direction: column;justify-content: center;align-items: center;">
+                            <img class="img1" style="margin-bottom: 20px;" src="images/service2.png" width="330px" height="330px" alt="">
+                            <h4 style="font-size:xx-large;text-align: center;margin: 0px 0px 16px;font-family: nunito, sans-serif; font-size: 22px;color:#404040;">Digital Marketing</h4>
+                            <p style="text-align:center;margin: 0px 0px 15px;padding: 0px 15px; font-size: 16px;font-family: nunito, sans-serif;color: #606060;">Maecenas faucibus mollis interdum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus.</p>
+                            <a class="learnmore" style="font-size:13px;font-family: nunito, sans-serif;   margin:0px 0px 20px;color: #999999;text-decoration: none;" href="#">LEARN MORE 
+                                <i class="bi bi-arrow-right-short"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="service-1" style="display: flex;flex-direction: column;justify-content: center;align-items: center;">
+                            <img class="img1" style="margin-bottom: 20px;" src="images/service3.png" width="330px" height="330px" alt="">
+                            <h4 style="font-size:xx-large;text-align: center;margin: 0px 0px 16px;font-family: nunito, sans-serif; font-size: 22px;color:#404040;">Digital Marketing</h4>
+                            <p style="text-align:center;margin: 0px 0px 15px;padding: 0px 15px; font-size: 16px;font-family: nunito, sans-serif;color: #606060;">Maecenas faucibus mollis interdum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus.</p>
+                            <a class="learnmore" style="font-size:13px;font-family: nunito, sans-serif;   margin:0px 0px 20px;color: #999999;text-decoration: none;" href="#">LEARN MORE 
+                                <i class="bi bi-arrow-right-short"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!--main2 ends-->
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12" style="height:125px; width:100%"></div>
+            </div>
+        </div>
+
+        <div class="main3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6" id="hiw-img-container">
+                        <img class="hiw-img" src="images/howitworks.png" width="555px" height="458px" alt="">
+                    </div>
+                    <div class="col-lg-6">
+                        <h2 class="btn-head">HOW IT WORKS?</h2>
+                        <h3 class="hiw-heading">Find out everything you need about creating a business process model.</h3>
+
+                        <!--new row-->
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 ">
+                                <h5>1. Creative Ideas</h5>
+                                <p class="hiw-p">Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus cras.</p>
+                            </div>
+                            <div class="col-lg-6 col-md-6 "><h5>2. Magic Touch</h5>
+                                <p class="hiw-p">Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus cras.</p>
+                        
+                            </div>
+                            <div class="col-lg-6 col-md-6 "><h5>3. Data Analysis</h5>
+                                <p class="hiw-p">Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus cras.</p>
+                            </div>
+                            <div class="col-lg-6 col-md-6 "><h5>4. Finalize Product</h5>
+                                <p class="hiw-p">Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus cras.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!--main3 ends-->
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12" style="height:125px; width:100%"></div>
+            </div>
+        </div>
+
+        <div class="how-it-works">
+            <div class="container">
+                <div class="row" id="wcu-row">
+                    
+                        <div class="howit-works-container">
+                                    <div class="hiw-content-1">
+                                        <div class="col-lg-6 col-md-12" id="wcu_new">
+                                            <h2 class="btn-head" style="width: 60px;border-radius: 25px;width: 130px;">WHY CHOOSE US?</h2>
+                                            <h3 style="padding-bottom: 10px;" class="hiw-heading">So here are a few reasons why our valued customers choose us.</h3>
+                                        
+                                            <button class="accordion acc1" style="font-size:20px">Money protection</button>
+                                            <div class="panel">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                            </div>
+                                        
+                                            <button class="accordion acc1" style="font-size:20px">Strategic development</button>
+                                            <div class="panel">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                            </div>
+                                            <button class="accordion acc1" style="font-size:20px">Marketing management</button>
+                                            <div class="panel">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                            </div>
+                                        
+                                        
+                                            <script>
+                                            var acc1 = document.getElementsByClassName("acc1");
+                                            var j;
+                                            
+                                            for (j = 0; j < acc1.length; j++) {
+                                            acc1[j].addEventListener("click", function() {
+                                                this.classList.toggle("active");
+                                                var panel = this.nextElementSibling;
+                                                if (panel.style.maxHeight) {
+                                                panel.style.maxHeight = null;
+                                                } else {
+                                                panel.style.maxHeight = panel.scrollHeight + "px";
+                                                } 
+                                            });
+                                            }
+                                            </script>
+                                        </div>
+                                    </div>
+                                    <div class="hiw-content-2">
+                                        <div class="col-lg-6 col-md-12 col-12" id="faq-img-container">
+                                            <img class="faq-img" src="images/whychooseus.png" width="555px" height="458px" alt="">
+                                        </div>
+                                    </div>
+                            
+                        </div>
+                </div>
+            </div>
+        </div><!--how it works ends-->
+
+        <div class="main">
+            <!--How we do it?-->
+            <div class="container-fluid">
+                <div class="row">
+                    
+
+                    
+                    <div class="col-12" id="wcu">
+                        <div class="overlay" style="display: flex;flex-direction: column; justify-content: center;align-items: center;">
+                            <h2 class="btn-wcu">HOW WE DO IT?</h2>
+                            <h3 style="max-width: 600px;text-align: center;" class="wcu-heading">Find out everything you need to know about creating a business process model.</h3>
+                        </div>
+                    </div>
+                </div>
+            </div><!--how we do it? ends-->
+        </div><!--main4 ends-->
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12" style="height:125px; width:100%"></div>
+            </div>
+        </div>
+
+        <div class="main5">
+            <div class="container">
+                <div class="row">
+                    <!--owl crousal 1-->
+                    <div class="owl-carousel owl-theme" id="one">
+                        <div class="item">
+                            <img src="images/owl1img1.jpg" alt="">
+                            <p style="margin-top: 25px;font-size: 20px;font-weight: 500;color: #404040;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, aut?</p>
+                        </div>
+                        <div class="item">
+                            <img src="images/owl1img2.jpg" alt="">
+                            <p style="margin-top: 25px;font-size: 20px;font-weight: 500;color: #404040;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, aut?</p>
+                        </div>
+                        <div class="item">
+                            <img src="images/owl1img3.jpg" alt="">
+                            <p style="margin-top: 25px;font-size: 20px;font-weight: 500;color: #404040;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, aut?</p>
+                        </div>
+                        <div class="item">
+                            <img src="images/owl1img4.jpg" alt="">
+                            <p style="margin-top: 25px;font-size: 20px;font-weight: 500;color: #404040;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, aut?</p>
+                        </div>
+                        <div class="item">
+                            <img src="images/owl1img5.jpg" alt="">
+                            <p style="margin-top: 25px;font-size: 20px;font-weight: 500;color: #404040;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, aut?</p>
+                        </div>
+                        
+                    </div>
+                    
+                    <!--owl carousal ends-->
+                </div>
+            </div>
+        </div><!--main5 ends-->
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-12" style="height:125px; width:100%"></div>
+            </div>
+        </div>
+
+        <div class="main6">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12" style="display: flex;flex-direction: column; justify-content: center;align-items: center;">
+                        <h2 class="btn-head">HAPPY CUSTOMERS</h2>
+                        <h3 class="hiw-heading" style="text-align: center;max-width: 630px;font-size:32px;">Customer satisfaction is our major goal. See what our customers are saying about us.</h3>
+                    </div>
+                </div>
+            </div>
+        </div><!--main6 ends-->
+
+        <div class="main7">
+            <div class="container">
+                <div class="row" id="hc-row" style="display: flex;justify-content: center;align-items: center;">
+                    <div class="col-lg-6 col-md-12" id="hc-img-container">
+                        <img class="hc-img" src="images/happycustomers.png" width="540px" height="443px" alt="">
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <!--owl crousal 2-->
+                    <div class="owl-carousel  owl-theme" id="two">
+                        <div class="item" style="padding-left: 15px;padding-top: 10px;">
+                            <i class="fa-sharp fa-solid fa-quote-left" style="font-size: 40px;color:#dadceb;"></i>
+                            <p id="hc-p1" style="max-width: 400px;font-size: 20px;color: #707070;padding-top: 20px;">
+                                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia eius nobis excepturi quibusdam saepe at fugit odit nihil, totam minus dolor, ex non labore ducimus rem."
+                            </p>
+                            <h6 style="font-size:18px;color: black;">Barkley Widerski</h6>
+                            <p style="max-width: 400px;font-size: 16px;color: #707070;">Sales Manager</p>
+                        </div>
+                        <div class="item" style="padding-left: 15px;padding-top: 10px;">
+                            <i class="fa-sharp fa-solid fa-quote-left" style="font-size: 40px;color:#dadceb;"></i>
+                            <p id="hc-p2" style="max-width: 400px;font-size: 20px;color: #707070;padding-top: 20px;">
+                                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia eius nobis excepturi quibusdam saepe at fugit odit nihil, totam minus dolor, ex non labore ducimus rem."
+                            </p>
+                            <h6 style="font-size:18px;color: black;">Cornelia Gibson</h6>
+                            <p style="max-width: 400px;font-size: 16px;color: #707070;">Finantial Analyst</p>
+                        </div>
+                        <div class="item" style="padding-left: 15px;padding-top: 10px;">
+                            <i class="fa-sharp fa-solid fa-quote-left" style="font-size: 40px;color:#dadceb;"></i>
+                            <p id="hc-p3" style="max-width: 400px;font-size: 20px;color: #707070;padding-top: 20px;">
+                                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia eius nobis excepturi quibusdam saepe at fugit odit nihil, totam minus dolor, ex non labore ducimus rem."
+                            </p>
+                            <h6 style="font-size:18px;color: black;">Coriss Ambady</h6>
+                            <p style="max-width: 400px;font-size: 16px;color: #707070;">Marketing Specialist</p>
+                        </div>
+                        
+                    </div>
+                    <!--javascript-->
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+                    <script>
+                        $(document).ready(function(){
+
+                            var one = $("#one");
+                            var two = $("#two");
+                            var three = $("#three")
+
+                            one.owlCarousel({
+                                loop:true,
+                                margin:10,
+                                nav:false,
+                                autoplay:true,
+                                autoplayTimeout: 2000,
+                                responsive:{
+                             0:{
+                                 items:1
+                                 },
+                            575:{
+                                items:1
+                                 },
+                            767:{
+                                items:2
+                            },
+                            991:{
+                                items:3
+                            }
+                            }
+                        })
+                        two.owlCarousel({
+                                loop:true,
+                                margin:10,
+                                nav:false,
+                                dots:false,
+                                autoplay: true,
+                                autoplayTimeout: 2000,
+                                responsive:{
+                             0:{
+                                 items:1
+                                 },
+                            575:{
+                                items:1
+                                 },
+                            767:{
+                                items:1
+                            },
+                            991:{
+                                items:1
+                            }
+                            }
+                        })
+                        three.owlCarousel({
+                                loop:true,
+                                margin:10,
+                                nav:false,
+                                dots:false,
+                                autoplay:true,
+                                autoplayTimeout: 1000,
+                                responsive:{
+                             0:{
+                                 items:2
+                                 },
+                            575:{
+                                items:2
+                                 },
+                            768:{
+                                items:4
+                            },
+                            992:{
+                                items:5
+                            },
+                            1150:{
+                                items:6
+                            }
+                            }
+                        })
+                        });
+                    </script>
+                    <!--owl carousal ends-->
+                    </div>
+                </div>
+            </div>
+        </div><!--main7 ends-->
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12" style="height:125px; width:100%"></div>
+            </div>
+        </div>
+
+        <div class="carousel3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="owl-carousel owl-theme" id="three">
+                            <div class="item">
+                                <img src="images/logo1.svg" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="images/logo2.svg" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="images/logo3.svg" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="images/logo4.svg" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="images/logo5.svg" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="images/logo6.svg" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="images/logo7.svg" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="images/logo8.svg" alt="">
+                            </div>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!--carousel3 ends-->
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12" style="height:125px; width:100%"></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12" style="height:125px; width:100%"></div>
+            </div>
+        </div>
+
+        <div class="main8">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 col-md-12">
+                        <h2 class="btn-head2">OUR PRICING</h2>
+                        <h3 class="hp-heading">We offer great prices, premium and quality products for your business.
+                        </h3>
+                        <P style="text-align: left;">
+                            Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla. Maecenas sed diam eget risus varius blandit sit amet non magna. Nulla vitae elit libero, a pharetra augue. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Sed posuere consectetur est. Sed posuere consectetur est at lobortis.
+                        </P>
+                    </div>
+                    <div class="col-lg-7 col-md-12" id="pricing" style="padding-top: 70px;padding-bottom: 70px;">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-12" id="pricing1" style="display: flex;   flex-direction: column; justify-content: center;align-items: center;">
+                                
+                                    <div style="margin-bottom: 15px;">
+                                            <p style="margin-bottom: -8px;">$<span style="font-size:70px;">9</span>/month</p>
+                                            <h5>Basic Plan</h5>
+                                    </div>
+                                    <p style="text-align: center;margin-bottom: 50px;">
+                                        1 Project <br> 100K API Access <br> 100MB Storage <br> Custom Cloud Services <br> Weekly Reports <br> 7/24 Support
+    
+                                    </p>
+                                    <button class="pricing-btn">
+                                        CHOOSE PLAN
+                                    </button>
+                                
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12" id="pricing1" style="display: flex;   flex-direction: column; justify-content: center;align-items: center;">
+                                
+                                <div style="margin-bottom: 15px;">
+                                        <p style="margin-bottom: -8px;">$<span style="font-size:70px;">9</span>/month</p>
+                                        <h5>Basic Plan</h5>
+                                </div>
+                                <p style="text-align: center;margin-bottom: 50px;">
+                                    1 Project <br> 100K API Access <br> 100MB Storage <br> Custom Cloud Services <br> Weekly Reports <br> 7/24 Support
+
+                                </p>
+                                <button class="pricing-btn">
+                                    CHOOSE PLAN
+                                </button>
+                            
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!--Pricing ends-->
+        </div><!--main8 ends-->
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12" style="height:125px; width:100%"></div>
+            </div>
+        </div>
+
+        <div class="main9">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 col-12" id="faq-img-container">
+                        <img class="faq-img" src="images/faq.png" width="555px" height="458px" alt="">
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-12" style="padding-left: 70px;">
+                        
+                            <h2 class="btn-head" style="width: 60px;border-radius: 25px;">FAQ</h2>
+                            <h3 style="padding-bottom: 10px;" class="hiw-heading">If you don't see an answer to your question, you can send us an email from our contact form.</h3>
+                        
+                        <button class="accordion" style="font-size:20px">Can I cancel my subscription?</button>
+                        <div class="panel">
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
+                        
+                        <button class="accordion" style="font-size:20px">Which payment methods do you accept?</button>
+                        <div class="panel">
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
+                        
+                        <button class="accordion" style="font-size:20px">How can I manage my account</button>
+                        <div class="panel">
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
+                        <button class="accordion" style="font-size:20px">Is my credit card information secure?</button>
+                        <div class="panel">
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
+                        
+                        <script>
+                        var acc = document.getElementsByClassName("accordion");
+                        var i;
+                        
+                        for (i = 0; i < acc.length; i++) {
+                          acc[i].addEventListener("click", function() {
+                            this.classList.toggle("active");
+                            var panel = this.nextElementSibling;
+                            if (panel.style.maxHeight) {
+                              panel.style.maxHeight = null;
+                            } else {
+                              panel.style.maxHeight = panel.scrollHeight + "px";
+                            } 
+                          });
+                        }
+                        </script>
+                        
+                    </div>
+                </div>
+            </div>
+        </div><!--main9 ends-->
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12" style="height:125px; width:100%"></div>
+            </div>
+        </div>
+
+        <footer style="background-color: #1e2228;">
+            <div class="container-fluid p-0" style="background-color: #1e2228;">
+                <div class="row" style="margin: 0px 107px;padding: 120px 0px 100px;">
+                    <div class="col-lg-3 col-md-4 col-sm-12" style="padding: 0px 12px;">
+                        <img src="images/logo.png" alt="">
+                        <div style="height:20px;width: 100%;"></div>
+                        <p class="footer-contents1">&copy; 2020 Snowlake App. <br> All rights reserved. </p>
+                    </div>
+    
+                    <div class="col-lg-3 col-md-4 col-sm-12" style="color:#cacaca;font-size: 16px;font-family: Nunito, sans-serif; padding: 0px 12px;line-height: 30px;">
+                        <h3 class="footer-heading">Get in Touch</h3>
+                       <address>
+                        Moonshine St. 14/05 Light <br> City London, United Kingdom <br><br>
+                       </address>
+                       info@email.com <br>+00 (123) 456 78 90
+                    </div>
+    
+                    <div class="col-lg-3 col-md-4 col-sm-12" style="padding: 0px 12px;">
+                        <h3 class="footer-heading">Learn More</h3>
+                        <div style="list-style-type: none; color:#cacaca;font-size: 16px;font-family: Nunito, sans-serif;">
+                            <div style="line-height:30px;">About Us</div>
+                            <div style="line-height:30px;">Our Story</div>
+                            <div style="line-height:30px;">Projects</div>
+                            <div style="line-height:30px;">Terms of Use</div>
+                            <div style="line-height:30px;">Privacy Policy</div>
+                            <div style="line-height:30px;">Contact Us</div>
+                        </div>
+                    </div>
+    
+                    <div class="col-lg-3 col-md-12 col-sm-12" id="our-new" style="padding: 0px 12px;">
+                        <div class="f-content-container">
+                            <h3 class="footer-heading">Our Newsletter</h3>
+                             <p style="color:#cacaca;font-size: 16px;font-family: Nunito, sans-serif; padding: 0px 0px 20px;line-height: 30px;">
+                                Subscribe to our newsletter to get our news & deals delivered to your inbox!
+                             </p>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-8 col-md-8" style="">
+                                <input class="finput" type="text" placeholder="Email Address">
+                            </div>
+                            <div class="col-lg-4 col-md-4" style="display: flex;justify-content: flex-start;">
+                                <button class="join">JOIN</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+            <!-- Option 1: Bootstrap Bundle with Popper -->
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+  </body>
+</html>
